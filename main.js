@@ -18,10 +18,10 @@ function unitSelected(unit,value){
         let ounces=value/28.35
         let pounds=value/454
         //Capture where to insert the converted weight values
-         document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(0) 
-         document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(0)
-        document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(0)
-        document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(0)
+         document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(2) 
+         document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(2)
+        document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(2)
+        document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(2)
 
     }
     else if(unit==='kg'){
@@ -30,10 +30,10 @@ function unitSelected(unit,value){
         let ounces=value*35.274
         let pounds=value*2.205
         //Capture where to insert the converted weight values
-        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(0) 
-        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(0)
-       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(0)
-       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(0)
+        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(2) 
+        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(2)
+       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(2)
+       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(2)
     }
     else if(unit==='pounds'){
         let pounds=value
@@ -41,10 +41,10 @@ function unitSelected(unit,value){
         let grams=value*454
         let ounces=value*16
         //Capture where to insert the converted weight values
-        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(0) 
-        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(0)
-       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(0)
-       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(0)
+        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(2) 
+        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(2)
+       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(2)
+       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(2)
     }
     else if(unit==='ounces'){
         let ounces=value
@@ -52,9 +52,9 @@ function unitSelected(unit,value){
         let grams=value*28.35
         let pounds=value/16
         //Capture where to insert the converted weight values
-        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(0) 
-        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(0)
-       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(0)
-       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(0)
+        document.querySelector('#gCard h4').textContent=Number.parseFloat(grams).toFixed(2) 
+        document.querySelector('#kgCard h4').textContent=Number.parseFloat(kg).toFixed(2)
+       document.querySelector('#ounceCard h4').textContent=Number.parseFloat(ounces).toFixed(2)
+       document.querySelector('#poundCard h4').textContent=Number.parseFloat(pounds).toFixed(2)
     }
 }
